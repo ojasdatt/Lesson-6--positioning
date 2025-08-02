@@ -1,0 +1,54 @@
+<html>
+    <head>
+    <title>
+    Positions
+    </title>
+    <style>
+     div {
+      right:30px;
+      border:20px black;
+     }
+     div.absolute{
+      position: sticky;
+      left: 300px;
+      border: 40px seagreen;
+     }
+     div.relative{
+      position: relative;
+      left: 300px;
+      border: 50px seagreen;
+     }
+     div.fixed{ 
+      position:absolute;
+      top: 200px;
+      right: 300px;
+      width:150px;
+      border:45px slateblue;
+     }
+     div.sticky{
+      position: fixed;
+      top:20px;
+      left:50px;
+      width:150px;
+      border:45px slateblue;
+     }
+    </style>
+    </head>
+    <body>
+    <div>
+    Fixed
+    </div>
+    <div class="sticky">
+    Sticky
+    </div>
+    <div class="relative">
+    Relative
+    </div>
+    <div class="absolute">
+    Absolute
+    </div>
+    <div class="fixed">
+    This is fixed
+    </div>
+    </body>
+</html>
